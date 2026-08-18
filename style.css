@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080812;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 35px 20px;
+
+    background: linear-gradient(135deg, #11112a, #2a124d);
+}
+
+header h1 {
+    margin: 0;
+    color: #5cecff;
+}
+
+header p {
+    color: #aaa;
+}
+
+.app-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    padding: 50px 20px;
+}
+
+.version-card {
+    width: 350px;
+    padding: 30px;
+
+    background: #111122;
+
+    border-radius: 20px;
+    border: 1px solid #444;
+
+    transition: 0.3s;
+}
+
+.version-card:hover {
+    transform: translateY(-8px);
+}
+
+.new-version {
+    border-color: #00d9ff;
+}
+
+.old-version {
+    border-color: #a855f7;
+}
+
+.big-icon {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 30px;
+
+    margin: 25px 0;
+}
+
+.badge {
+    display: inline-block;
+
+    padding: 8px 15px;
+
+    background: #00c8ff;
+    color: black;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.old-badge {
+    background: #a855f7;
+    color: white;
+}
+
+.version {
+    color: #00eaff;
+    font-weight: bold;
+}
+
+.description {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+button {
+    width: 100%;
+
+    margin-top: 20px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(90deg, #00c8ff, #8b5cf6);
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    padding: 30px;
+    color: #777;
+}
